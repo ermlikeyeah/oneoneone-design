@@ -1,0 +1,83 @@
+{% extends 'templates/nhs_transaction_layout.html' %}
+
+{% block content %}
+
+{% block afterHeader %}
+{% include "includes/service-headers/111-design.html" %}
+{% endblock %}
+
+<main id="content" role="main">
+
+  <div class="grid-row" style="margin: 32px 0;">
+      <div class="column-two-thirds">
+
+          <a href="change-my-answers" class="back-to-previous">Back to index</a>
+
+      </div>
+  </div>
+
+
+  <div class="grid-row" style="background-color: #003294; color: #ffffff;">
+    <div class="column-two-thirds" style="padding:32px;">
+
+    <h1 class="heading-xlarge">Design session cards</h1>
+    <h2 class="heading-medium"><strong>From a date I cannot remember, because all the days merge into one.</strong></h2>
+
+  </div>
+</div>
+
+
+
+    <div class="grid-row"  style="margin-top: 32px;">
+      <div class="column-third">
+
+        <p><strong>Across all</strong></p>
+
+        <div style="margin: 16px 0;">
+          You should [do something] [within a time limit]
+        </div>
+
+        <div style="margin: 16px 0;">
+          Direct next step action:<br />
+          You should [do something] [within a time limit]
+        </div>
+
+        <div style="margin: 16px 0;">
+          What happens next
+        </div>
+
+        <div style="margin: 16px 0;">
+          Condition specifc interim self care advice
+        </div>
+
+
+        <div style="margin: 16px 0;">
+          Preparation ahead of the visit [condition specific]
+        </div>
+
+
+      </div>
+
+      <div class="column-third">
+
+        <p><strong>Across some</strong></p>
+
+        <div style="margin: 16px 0;">
+          Specific service [pharmacist/optician/A&Eetc] finder
+        </div>
+
+        <div style="margin: 16px 0;">
+          Travel advice
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+
+
+</main>
+
+{% endblock %}

@@ -1,0 +1,59 @@
+{% extends 'templates/nhs_transaction_layout.html' %}
+
+{% block content %}
+
+{% block afterHeader %}
+{% include "includes/service-headers/111-design.html" %}
+{% endblock %}
+
+<main id="content" role="main">
+
+  <div class="grid-row" style="background-color: #003294; color: #ffffff;">
+    <div class="column-two-thirds" style="padding:32px;">
+
+    <h1 class="heading-xlarge">You have finished your online assessment</h1>
+    <h2 class="heading-medium"><strong>Based on your answers you do not need to see a healthcare professsional at this time.</strong></h2>
+
+  </div>
+</div>
+
+
+
+    <div class="grid-row"  style="margin-top: 32px;">
+
+
+
+      <div class="column-two-thirds">
+
+        <h3 class="heading-large">What happens next?</h3>
+
+
+            <h4 class="heading-medium">What if I feel worse?</h4>
+            <p style="background-color:  #fbe8e6; border-left: 8px solid #d81e05; padding: 16px;">If there are any new symptoms or if the condition gets worse, changes or you have any other concerns, call NHS <a href="callnumber">NHS 111</a> for advice.<br />
+              <br />
+              Calls to 111 will not cost you.</p>
+
+      </div>
+    </div>
+
+    <div class="grid-row" style="margin-top: 32px;">
+        <div class="column-two-thirds">
+
+      <h2 class="heading-medium">Advice to look after yourself</h2>
+      <ol class="list-number">
+          <li><a href="soft-link">Medication, pain, or fever</a></li>
+          <li><a href="soft-link">Cold and flu-like symptoms</a></li>
+      </ol>
+
+      <h3 class="heading-small">Medication, pain, or fever</h3>
+          <p>Paracetamol or ibruprofen can be used to reduce a fever. Don't take them if you've been told not to, or if you've already taken some. Read the instructions on the packet or ask a pharmacist for advice.</p>
+          <p><strong>If you're pregnant</strong><br />
+            Use paracetamol. Don't use ibruprofen unless a doctor, midwife or pharmacist has advised you to.</p>
+
+        </div>
+      </div>
+
+
+</main>
+
+{% endblock %}

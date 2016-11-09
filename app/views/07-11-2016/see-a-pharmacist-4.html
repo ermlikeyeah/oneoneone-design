@@ -1,0 +1,82 @@
+{% extends 'templates/nhs_transaction_layout.html' %}
+
+{% block content %}
+
+{% block afterHeader %}
+{% include "includes/service-headers/111-design.html" %}
+{% endblock %}
+
+<main id="content" role="main">
+
+  <div class="grid-row" style="background-color: #003294; color: #ffffff;">
+    <div class="column-two-thirds" style="padding:32px;">
+
+    <h1 class="heading-xlarge">You have finished your online assessment</h1>
+    <h2 class="heading-medium"><strong>Your answers suggest you should see a pharmacist within 12 hours.</strong></h2>
+
+  </div>
+</div>
+
+
+
+    <div class="grid-row"  style="margin-top: 32px;">
+
+
+
+      <div class="column-two-thirds">
+
+        <h3 class="heading-large">What happens next?</h3>
+
+      </div>
+    </div>
+
+    <div class="grid-row"  style="margin-top: 32px;">
+
+      <div class="column-two-thirds">
+
+
+            <div style="background-color:  #fbe8e6; border-left: 8px solid #d81e05; padding: 16px;">
+            <h4 class="heading-medium">What if I feel worse?</h4>
+            <p>If there are any new symptoms or if the condition gets worse, changes or you have any other concerns, call NHS <a href="callnumber">NHS 111</a> for advice.<br />
+              <br />
+              Calls to 111 will not cost you.</p>
+          </div>
+
+      </div>
+
+      <div class="column-third">
+
+        <div style="background: #d9e1e2; border: 8px solid #758692; padding:16px;">
+    <h4 class="heading-medium">Find a pharmacy</h4>
+
+    <strong>Enter a postcode</strong><br />
+    <input type="text" width="9">
+
+  </div>
+      </div>
+
+    </div>
+
+
+    <div class="grid-row" style="margin-top: 32px;">
+        <div class="column-two-thirds">
+
+      <h4 class="heading-medium">I know which pharmacy I am going to. What can I do in the meantime?</h4>
+
+      <strong>Eye discharge</strong><br />
+        <ol class="list-number">
+            <li>Clean each eye with a new piece of cotton wool and cool tap water.</li>
+            <li>Wipe from the inner to the outer corner of the eye.</li>
+            <li>Wash your hands after touching the eye.</li>
+            <li>Don't share towels or facecloths.</li>
+            <li>Don't wear contact lenses until the problem has cleared up.</li>
+
+        </ol>
+
+        </div>
+      </div>
+
+
+</main>
+
+{% endblock %}
